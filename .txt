@@ -1,0 +1,68 @@
+player logic choices {
+	if the player selects the mace {
+		- if computer selects mace: 
+			return "draw" 
+		- if computer selects bow: 	
+			return "win"
+		- if computer selects wand: 
+			return "lose" 
+	}
+
+	if the player selects bow {
+		- if computer selects mace: 
+			return "lose"
+		- if computer selects bow: 	
+			return "draw"
+		- if computer selects wand: 
+			return "win"
+	}
+
+	if the player selects wand {
+		- if computer selects mace: 
+			return "win"
+		- if computer selects bow: 	
+			return "lose"
+		- if computer selects wand: 
+			return "draw" 
+	}
+}
+
+Set up two int counters for wins, 
+	how do I store wins and update them?
+	what data type stores numbers?
+	- enemy wins
+	- my wins
+
+when someone wins increase win counters (increment)
+
+
+
+Game ends at 5 wins for either player or computer
+
+game to stop at 5 wins
+- two counters
+
+if either win counters are 5 or higher
+ if playerwins or computerwins equal to 5
+	- restart game
+
+we want to have the loss/win/draw shown on the screen and not just to the console 
+
+add new counters for below: 
+	-draws (completed)
+	-total games 
+		- would be like the click me action that everytime a starting decision function was ran the counter would go up
+		by one 
+		-set the varible counter 
+		- set the anchor in html 
+		- 
+
+
+
+Add a text block of who won when they hit 5 wins
+	-Add a start again button 
+
+We want to call on 
+
+add into show restart game function the winner of the rounds 
+

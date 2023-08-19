@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Web Page</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="titles">
+  <h1>Wand | Bow | Mace</h1>
+  <h2>3 Weapons! 5 Chances!~~Choose your Weapon</h2>
+  </div>
+
+  <div class="total-games">
+    <p>Total Games: <a id="total-games">0</a></p>
+  </div>
+
+  <div class="winner-declaration">
+    <p>Winner of Battle &#128151;: <a id="winner-declaration"></a></p>
+  </div>
+
+  <div class="buttons-div">
+    <h4>Rules:</h4>
+    <p>Wand beats Mace ~ Mace beats Bow ~ Bow beats Wand</p>
+    <button onclick="getPlayerChoice('wand')">
+      <img src="magicWand.jpg" alt="wand">
+    </button>
+    <button onclick="getPlayerChoice('bow')">
+      <img src="bow.jpg" alt="bow">
+    </button>
+    <button onclick="getPlayerChoice('mace')">
+      <img src="mace.jpg" alt="mace">
+    </button>
+  </div>
+
+  <div class="player-wins">
+    <p>Your Wins: <a id="player-wins">0</a></p>
+  </div>
+  <div class="computer-wins">
+    <p>Enemy Wins: <a id="enemy-wins">0</a></p>
+  </div>
+  <div class="draw-games">
+    <p>Draws: <a id="draw-games">0</a></p>
+  </div>
+  <div class="restart-button">
+    <button id="restartButton" onclick="clearCounters()">
+      Restart Game!
+    </button>
+  </div>
+
+  <script>
+      // Inline JavaScript code
+  </script>
+</body>
+<script src="./script.js"></script>
+
+</html>
